@@ -1,0 +1,22 @@
+{
+ "_": "Video 11 «قطعة ناقصة». Sections follow voice/timing.json (v4 ending 2) and film.py T after the warp. Total 96.0 s. 90 BPM = 4 escapement ticks (6/s) per beat.",
+ "bpm": 90,
+ "versions": {
+  "v1": {"styles": ["modern cinematic electronic", "precise clockwork percussion", "glassy synth textures", "documentary score", "clean and premium"], "seed": 1101},
+  "v2": {"styles": ["minimal cinematic orchestral", "pizzicato strings and celesta like clockwork", "soft felt piano", "documentary wonder", "warm and precise"], "seed": 1202}
+ },
+ "sections": [
+  {"ms": 3000, "styles": ["quiet precise ticking pulse", "one deep soft impact near the start", "anticipation"], "avoid": ["melody", "loud", "full drums"]},
+  {"ms": 5600, "styles": ["suspended", "airy glassy shimmer", "floating", "wonder", "very light"], "avoid": ["drums", "heavy bass", "loud"]},
+  {"ms": 5800, "styles": ["clean bright", "light confident synthetic pulse", "polished"], "avoid": ["dark", "heavy drums", "loud"]},
+  {"ms": 3500, "styles": ["fast accelerating riser", "chaotic spinning", "ends in a sudden stop to silence"], "avoid": ["calm", "steady level"]},
+  {"ms": 3500, "styles": ["near silence", "low soft drone", "slow tension"], "avoid": ["drums", "melody", "loud"]},
+  {"ms": 11000, "styles": ["curious", "steady mechanical rhythm", "light clockwork percussion", "gently building interest"], "avoid": ["heavy drums", "loud", "dark"]},
+  {"ms": 11500, "styles": ["rhythm grows", "faster pulse", "momentum", "more layers", "moderate energy"], "avoid": ["heavy drums", "aggressive"]},
+  {"ms": 13500, "styles": ["dark", "sparse", "low drone", "single slow heartbeat pulse", "almost silent", "tension"], "avoid": ["melody", "drums", "loud", "bright"]},
+  {"ms": 5500, "styles": ["suspense holds", "slow gentle rise", "anticipation"], "avoid": ["drums", "loud"]},
+  {"ms": 10900, "styles": ["warm release", "resolved", "gentle steady pulse returns", "wonder", "uplifting but soft"], "avoid": ["heavy drums", "loud", "dark"]},
+  {"ms": 12200, "styles": ["reflective", "emotional", "warm piano and soft strings", "gently building"], "avoid": ["drums", "loud", "busy"]},
+  {"ms": 10000, "styles": ["calm final swell", "full resolution", "then fades out to a clean ending"], "avoid": ["abrupt", "drums", "loud"]}
+ ]
+}
