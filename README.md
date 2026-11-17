@@ -15,4 +15,8 @@ cd ~/.claude/skills/Blender_Anatomy2/vendor && npm install
 
 - مجلد الخزنة (اللي فيه `content-studio/`): حطه في متغير البيئة `ANATOMY_VAULT`، أو في ملف `.vault` بجذر السكيل (سطر واحد فيه المسار). الافتراضي `~/anatomy-vault`.
 - الأدوات المتوقعة: Blender 5.2، بيئة manim، بيئة WhisperX، ffmpeg، Chrome. المسارات الافتراضية تحت `D:/tools` وتقدر تعدلها في `scripts/new_project.py`.
-- `new_project.py` ينسخ أدوات الصوت والموسيقى من سكيل «رواية» (`~/.claude/skills/رواية`)، وهي مو داخل هذا الريبو.
+- `new_project.py` ينسخ أدوات الصوت والموسيقى من سكيل «رواية»، فثبتها معها:
+
+```bash
+git clone https://github.com/ysucode/riwaya-skill ~/.claude/skills/رواية
+```
